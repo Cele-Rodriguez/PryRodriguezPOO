@@ -24,8 +24,9 @@ namespace PryRodriguezPOO
             objeto.Fuerza = Convert.ToInt32(txtFuerza.Text);
             objeto.Destreza = int.Parse (txtDestreza.Text);
 
-            lblInfo.Text += objeto.Nombre + "-" + objeto.Fuerza +"-"+
+            lblInfo1.Text += objeto.Nombre + "-" + objeto.Fuerza +"-"+
                 objeto.Destreza+ "\n";
+           
         }
     }
 }

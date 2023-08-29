@@ -11,6 +11,6 @@ namespace PryRodriguezPOO
        public string Nombre;
        public Int32 Fuerza;
        public Int32 Destreza;
-
+        
     }
 }

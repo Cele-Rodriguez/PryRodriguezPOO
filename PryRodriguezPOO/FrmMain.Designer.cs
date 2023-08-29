@@ -35,7 +35,7 @@
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblFuerza = new System.Windows.Forms.Label();
             this.lblDestreza = new System.Windows.Forms.Label();
-            this.lblInfo = new System.Windows.Forms.Label();
+            this.lblInfo1 = new System.Windows.Forms.Label();
             this.grpCreador = new System.Windows.Forms.GroupBox();
             this.grpCreador.SuspendLayout();
             this.SuspendLayout();
@@ -61,14 +61,14 @@
             // 
             this.txtFuerza.Location = new System.Drawing.Point(167, 73);
             this.txtFuerza.Name = "txtFuerza";
-            this.txtFuerza.Size = new System.Drawing.Size(46, 20);
+            this.txtFuerza.Size = new System.Drawing.Size(68, 20);
             this.txtFuerza.TabIndex = 1;
             // 
             // txtDestreza
             // 
             this.txtDestreza.Location = new System.Drawing.Point(167, 123);
             this.txtDestreza.Name = "txtDestreza";
-            this.txtDestreza.Size = new System.Drawing.Size(46, 20);
+            this.txtDestreza.Size = new System.Drawing.Size(68, 20);
             this.txtDestreza.TabIndex = 2;
             // 
             // lblNombre
@@ -98,14 +98,14 @@
             this.lblDestreza.TabIndex = 6;
             this.lblDestreza.Text = "Destreza";
             // 
-            // lblInfo
+            // lblInfo1
             // 
-            this.lblInfo.AutoSize = true;
-            this.lblInfo.Location = new System.Drawing.Point(32, 247);
-            this.lblInfo.Name = "lblInfo";
-            this.lblInfo.Size = new System.Drawing.Size(129, 13);
-            this.lblInfo.TabIndex = 7;
-            this.lblInfo.Text = "Aqui va info del personaje";
+            this.lblInfo1.AutoSize = true;
+            this.lblInfo1.Location = new System.Drawing.Point(32, 250);
+            this.lblInfo1.Name = "lblInfo1";
+            this.lblInfo1.Size = new System.Drawing.Size(129, 13);
+            this.lblInfo1.TabIndex = 7;
+            this.lblInfo1.Text = "Aqui va info del personaje";
             // 
             // grpCreador
             // 
@@ -120,7 +120,7 @@
             this.grpCreador.Size = new System.Drawing.Size(279, 168);
             this.grpCreador.TabIndex = 8;
             this.grpCreador.TabStop = false;
-            this.grpCreador.Text = "groupBox1";
+            this.grpCreador.Text = "Creador";
             // 
             // FrmMain
             // 
@@ -128,7 +128,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(405, 450);
             this.Controls.Add(this.grpCreador);
-            this.Controls.Add(this.lblInfo);
+            this.Controls.Add(this.lblInfo1);
             this.Controls.Add(this.btnCrear);
             this.Name = "FrmMain";
             this.Text = "Creacion de Personajes";
@@ -148,7 +148,7 @@
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Label lblFuerza;
         private System.Windows.Forms.Label lblDestreza;
-        private System.Windows.Forms.Label lblInfo;
+        private System.Windows.Forms.Label lblInfo1;
         private System.Windows.Forms.GroupBox grpCreador;
     }
 }
